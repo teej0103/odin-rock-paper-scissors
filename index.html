@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Welcome to Rock, Paper, Scissors</h1>
+        <p>First to 5 wins. Choose Wisely...</p>
+        <div class="scoreboard">
+            <div class="player">
+                <span>Player:</span>
+                <span class='player-score'>0</span>
+            </div>
+            <div class="computer">
+                <span>Machine:</span>
+                <span class="computer-score">0</span>
+            </div>
+        </div>
+        <div class="message"></div>
+        <div class="choices">
+            <img id='rock' src="assets/rock-svgrepo-com.svg" alt="hand in rock shape">
+            <img id='paper' src="assets/paper-svgrepo-com.svg" alt="hand in paper shape">
+            <img id='scissors' src="assets/peace-sign-svgrepo-com.svg" alt="hand in scissors shape">
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
